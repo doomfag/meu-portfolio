@@ -10,30 +10,35 @@
 <body>
   <div class="site-frame">
     <header class="header">
-      <a class="name" href="#portfolio">Kauã Fortunato</a>
+      <a class="name" href="#portfolio"><span class="brand-mark" aria-hidden="true">kf.</span><span>Kauã Fortunato<small>DESIGN & DESENVOLVIMENTO</small></span></a>
       <nav aria-label="Navegação principal">
         <a href="#portfolio" data-page="portfolio" class="active">Portfólio</a>
         <a href="#servicos" data-page="servicos">Serviços</a>
         <a href="#contatos" data-page="contatos">Contatos</a>
       </nav>
+      <span class="header-note"><i aria-hidden="true"></i> DIGITAL, COM PERSONALIDADE.</span>
     </header>
     <main>
       <section id="portfolio" class="portfolio" aria-label="Meu portfólio">
         <div class="composition">
+          <div class="hero-intro"><span class="eyebrow">INDEPENDENTE. INTENCIONAL. DIGITAL.</span><span class="edition">PORTFÓLIO / 01</span></div>
+          <h1>MEU <em>PORTFÓLIO</em><span class="hero-star" aria-hidden="true"><svg viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="5"><path d="M40 5v70M5 40h70M15 15l50 50M15 65l50-50"/></svg></span></h1>
           <div class="projects" aria-label="Galeria de projetos"></div>
-          <h1>MEU PORTFÓLIO</h1>
+
+          <div class="gallery-footer"><p>Uma coleção de ideias.<br><span>Feitas para ganhar vida na web.</span></p>
           <div class="gallery-controls" aria-label="Controles da galeria">
             <button type="button" id="previous" aria-label="Projeto anterior">←</button>
             <span id="gallery-position">01 / 03</span>
             <button type="button" id="next" aria-label="Próximo projeto">→</button>
             <button type="button" id="autoplay" aria-label="Pausar troca automática" aria-pressed="false">Ⅱ</button>
           </div>
+          <span class="gallery-hint">EXPLORE OS PROJETOS <span aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M5 19L19 5M5 5h14v14"/></svg></span></span></div>
         </div>
       </section>
       <section id="contatos" class="contacts" aria-labelledby="contacts-title" hidden>
         <div class="contact-photo"><img src="assets/portrait.png" alt="Retrato em preto e branco, em close"></div>
         <div class="contact-body">
-          <h2 id="contacts-title">Contatos</h2>
+          <div class="contact-heading"><span class="eyebrow">BOAS IDEIAS COMEÇAM COM UMA CONVERSA.</span><h2 id="contacts-title">Vamos<br><em>conversar.</em></h2></div>
           <div class="contact-details">
             <a href="https://wa.me/5521994568096" target="_blank" rel="noopener noreferrer"><span class="platform">WhatsApp</span><span>(21) 99456-8096</span></a>
             <a href="https://www.instagram.com/kfo.rtunato/" target="_blank" rel="noopener noreferrer"><span class="platform">Instagram</span><span>@kfo.rtunato</span></a>
@@ -42,11 +47,11 @@
         </div>
       </section>
       <section id="servicos" class="services" aria-labelledby="services-title" hidden>
-        <div class="services-heading"><span class="eyebrow">DO SEU PROJETO À WEB</span><h2 id="services-title">Serviços</h2></div>
+        <div class="services-heading"><div><span class="eyebrow">DO SEU PROJETO À WEB</span><h2 id="services-title">Serviços<span class="heading-dot">.</span></h2></div><p>Seu próximo passo digital.<br><span>Escolha por onde começar.</span></p></div>
         <div class="service-grid">
-          <article class="service-card"><span class="service-number">01</span><h3>Site simples</h3><p class="price">R$ 1.500</p><a class="hire" data-service="Site simples" data-price="R$ 1.500" target="_blank" rel="noopener noreferrer">Contratar <span>↗</span></a></article>
-          <article class="service-card"><span class="service-number">02</span><h3>Site intermediário</h3><p class="price">R$ 2.500</p><a class="hire" data-service="Site intermediário" data-price="R$ 2.500" target="_blank" rel="noopener noreferrer">Contratar <span>↗</span></a></article>
-          <article class="service-card"><span class="service-number">03</span><h3>Site complexo</h3><p class="price"><small>A partir de</small>R$ 5.000</p><a class="hire" data-service="Site complexo" data-price="a partir de R$ 5.000" target="_blank" rel="noopener noreferrer">Solicitar orçamento <span>↗</span></a></article>
+          <article class="service-card"><div class="service-top"><span class="service-number">01 / ESSENCIAL</span><span class="service-symbol" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M5 19L19 5M5 5h14v14"/></svg></span></div><h3>Site simples</h3><p class="service-description">Uma presença digital com foco no essencial.</p><p class="price">R$ 1.500</p><a class="hire" data-service="Site simples" data-price="R$ 1.500" target="_blank" rel="noopener noreferrer">Contratar <span><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M5 19L19 5M5 5h14v14"/></svg></span></a></article>
+          <article class="service-card"><div class="service-top"><span class="service-number">02 / EVOLUÇÃO</span><span class="service-symbol" aria-hidden="true"><svg viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="5"><path d="M40 5v70M5 40h70M15 15l50 50M15 65l50-50"/></svg></span></div><h3>Site intermediário</h3><p class="service-description">Mais possibilidades para a sua ideia.</p><p class="price">R$ 2.500</p><a class="hire" data-service="Site intermediário" data-price="R$ 2.500" target="_blank" rel="noopener noreferrer">Contratar <span><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M5 19L19 5M5 5h14v14"/></svg></span></a></article>
+          <article class="service-card"><div class="service-top"><span class="service-number">03 / SOB MEDIDA</span><span class="service-symbol" aria-hidden="true">∞</span></div><h3>Site complexo</h3><p class="service-description">Um projeto pensado para ir além.</p><p class="price"><small>A partir de</small>R$ 5.000</p><a class="hire" data-service="Site complexo" data-price="a partir de R$ 5.000" target="_blank" rel="noopener noreferrer">Solicitar orçamento <span><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M5 19L19 5M5 5h14v14"/></svg></span></a></article>
         </div>
       </section>
     </main>

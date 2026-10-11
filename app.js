@@ -6,9 +6,9 @@ let paused = reducedMotion.matches;
 let hovering = false;
 let lastTrigger;
 const artwork = {
-  studio: '<div class="sculpture"><div class="ring ring-one"></div><div class="ring ring-two"></div><div class="sphere"></div></div>',
-  objects: '<div class="chair"><div class="chair-back"></div><div class="chair-seat"></div><div class="chair-leg left"></div><div class="chair-leg right"></div></div>',
-  atelier: '<div class="fashion-image"></div>'
+  studio: '<div class="mini-site mini-studio"><div class="mini-header"><b>STUDIO®</b><span>ÍNDICE &nbsp; CONTATO</span></div><div class="mini-studio-title">Forma.<br><em>Sem limites.</em></div><div class="sculpture-image"></div><span class="mini-foot">ESTÚDIO CRIATIVO & DESIGN INDEPENDENTE</span></div>',
+  objects: '<div class="mini-site mini-objects"><div class="mini-header"><b>objects.</b><span>COLEÇÃO &nbsp; SACOLA (0)</span></div><div class="object-title">Menos, mas<br><em>melhor.</em></div><div class="object-image"></div><div class="object-caption"><span>OBJETOS PARA O COTIDIANO</span><span>01 — 03</span></div></div>',
+  atelier: '<div class="mini-site mini-atelier"><div class="mini-header"><b>ATELIER</b><span>COLEÇÃO 01</span></div><div class="fashion-image"></div><div class="atelier-title">Uma nova<br><em>perspectiva.</em></div><span class="mini-foot">EDITORIAL / IDENTIDADE / EXPRESSÃO</span></div>'
 };
 function fillCard(card, project) {
   const art = document.createElement('div'); art.className = 'project-art';
